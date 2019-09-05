@@ -1,5 +1,7 @@
 # Asynr
 
+[![Gem Version](https://badge.fury.io/rb/asynr.svg)](https://badge.fury.io/rb/asynr)
+
 (This gem is a rebuild of a previous one located at the same Github repository).
 \
 Asynr is a gem to perform asynchronous tasks by evaluating directly classes and entrypoints.
