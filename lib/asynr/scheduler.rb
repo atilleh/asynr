@@ -16,7 +16,6 @@ module Asynr
       end
 
       @threads.each do |thr|
-        p thr.inspect
         thr.join
       end
     end
