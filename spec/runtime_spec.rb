@@ -7,6 +7,7 @@ RSpec.describe Asynr::Core do
       scheduler.every 2, 2, TestClass, {args: :hello, entrypoint: :new, kill: true}
       scheduler.at (Time.now + 4), TestClass, {args: :hello, entrypoint: :_at, kill: true}
       scheduler.start
+      
       expect($?.exitstatus == 0).to equal(true)
       puts '-' * 30
     end
